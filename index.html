@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>twitch.tv</title>
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div id="nav-div1">
+            <img id="logo" src="styles/images/logo.png" alt="logo.png">
+            <input type="checkbox" name="menu-explorar" class="input-checkbox" id="menu-explorar">
+            <label for="menu-explorar">
+                <svg id="img-explorar" width="20px" height="20px" version="1.1" viewBox="0 0 20 20" x="0px" y="0px" class="ScSvg-sc-1hrsqw6-1 ihOSMR"><g><path d="M5 2a2 2 0 00-2 2v8a2 2 0 002 2V4h8a2 2 0 00-2-2H5z"></path><path fill-rule="evenodd" d="M7 8a2 2 0 012-2h6a2 2 0 012 2v8a2 2 0 01-2 2H9a2 2 0 01-2-2V8zm2 0h6v8H9V8z" clip-rule="evenodd"></path></g></svg>
+            </label>
+
+            <input type="checkbox" name="menu-mas" class="input-checkbox" id="menu-mas">
+            <label for="menu-mas">
+                <svg id="img-mas" width="20" height="20" viewBox="0 0 20 20" focusable="false" aria-hidden="true" role="presentation"><path d="M10 18a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm0-6a2 2 0 1 1 0-4 2 2 0 0 1 0 4zM8 4a2 2 0 1 0 4 0 2 2 0 0 0-4 0z"></path></svg>
+            </label>
+
+            <aside id="aside-explorar">
+                    <h1>Explorar</h1>
+                    <ul>
+                        <li>Juegos</li>
+                        <li>Música</li>
+                        <li>Esports</li>
+                        <li>IRL</li>
+                        <li>Creative</li>
+                    </ul>
+            </aside>
+
+            <aside id="aside-mas">
+                <div>
+                <ul>
+                    <li>GENERAL</li>
+                    <li>Acerca de</li>
+                    <li>Anunciantes</li>
+                    <li>Blog</li>
+                    <li>Desarrolladores</li>
+                    <li>Descargar aplicaciones</li>
+                    <li>Empleos</li>
+                    <li>IGDB</li>
+                    <li>Loot Cave - Tienda</li>
+                    <li>Partners</li>
+                    <li>Prensa</li>
+                    <li>Turbo</li>
+                    <li>Twitch Gift Card</li>
+                </ul>
+            </div>
+            </aside>
+            </div>
+
+            <input type="checkbox" name="menu-buscar" class="input-checkbox" id="menu-buscar">
+            <label for="menu-buscar">
+                <svg id="img-buscar" width="20" height="20" viewBox="0 0 20 20" focusable="false" aria-hidden="true" role="presentation"><path fill-rule="evenodd" d="M13.192 14.606a7 7 0 1 1 1.414-1.414l3.101 3.1-1.414 1.415-3.1-3.1zM14 9A5 5 0 1 1 4 9a5 5 0 0 1 10 0z" clip-rule="evenodd"></path></svg>
+            </label>
+
+            <aside id="aside-buscar">
+                <input type="search" name="barra-buscar" id="barra-buscar" placeholder="Buscar">
+                <input type="button" class="input-checkbox" value="">
+                <label for="buscar-boton">
+                    <img id="img-buscar" src="https://static-00.iconduck.com/assets.00/search-icon-2048x2048-cmujl7en.png" alt="barra-buscar">
+                </label> 
+            </aside>
+
+            <input type="checkbox" name="menu-prime" class="input-checkbox" id="menu-prime">
+            <label for="menu-prime">
+                <svg id="img-prime" width="20" height="20" viewBox="0 0 20 20" focusable="false" aria-hidden="true" role="presentation"><path fill-rule="evenodd" d="M13.798 10.456 10 6.657l-3.798 3.799L4 8.805V13h12V8.805l-2.202 1.65zM18 5v8a2 2 0 0 1-2 2H4a2.002 2.002 0 0 1-2-2V5l4 3 4-4 4 4 4-3z" clip-rule="evenodd"></path></svg>
+            </label>
+
+            <aside id="aside-prime">
+                <div class="div-prime" id="div1">
+                    <p>Recibe tus juegos hoy mismo</p>
+                    <p>Incluido con Amazon Prime</p>
+                    <br>
+                    <p>Obtén una suscripción mensual al canal de Twitch de tu streamer favorito, juegos todas las semanas y otros beneficios.</p>
+                    <br>
+                    <div>
+                        <a href="https://gaming.amazon.com/?ref_=sm_w_tup_epg_t_c&ingress=twch&twitchReferral=928e6ce65cb7ca60fb6e6fb1dce58749">Obtener hora ↗</a>
+                    </div>
+                </div>
+            </aside>
+
+            <input type="checkbox" name="iniciar-sesion" class="input-checkbox" id="iniciar-sesion">
+            <label for="iniciar-sesion">
+                <div id="div-iniciar">
+                    <p>Iniciar sesión</p>
+                </div>
+            </label>
+
+            <aside id="aside-iniciar">
+                <div id="div-iniciar-sesion">
+                    <img id="logo" src="styles/images/logo.png" alt="logo.png">
+                    <p>Iniciar sesión en Twitch</p>
+                <form action="">
+                    <label for="usuario">Usuario
+                        <br>
+                        <input type="text" name="usuario" id="usuario">
+                    </label>
+                    <br>
+                    <label for="password">Contraseña
+                        <br>
+                        <input type="password" name="password" id="password">
+                    </label>
+                    <a href="https://www.twitch.tv/user/account-recovery">¿Tienes problemas para iniciar sesión?</a>
+                    <input type="submit" value="Iniciar sesión">
+                </form>
+                <a href="">
+                    ¿No tienes una cuenta? Registrarse
+                </a>
+                </div>
+            </aside>
+
+            <input type="checkbox" name="registrarse" class="input-checkbox" id="registrarse">
+            <label for="registrarse">
+                <div id="div-registrarse">
+                    <p>Registrarse</p>
+                </div>
+            </label>
+            <div>
+                <svg id="img-usuario" width="20" height="20" viewBox="0 0 20 20" focusable="false" aria-hidden="true" role="presentation"><path fill-rule="evenodd" d="M5 7a5 5 0 1 1 6.192 4.857A2 2 0 0 0 13 13h1a3 3 0 0 1 3 3v2h-2v-2a1 1 0 0 0-1-1h-1a3.99 3.99 0 0 1-3-1.354A3.99 3.99 0 0 1 7 15H6a1 1 0 0 0-1 1v2H3v-2a3 3 0 0 1 3-3h1a2 2 0 0 0 1.808-1.143A5.002 5.002 0 0 1 5 7zm5 3a3 3 0 1 1 0-6 3 3 0 0 1 0 6z" clip-rule="evenodd"></path></svg>
+            </div>
+                
+            
+        </nav>
+    </header>
+
+    <aside id="sidebar">
+        <div>
+            <svg id="img-canales" width="20" height="20" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M12.002 3.999a2 2 0 0 1 2 2v2L18 6v8l-3.998-2v2a2 2 0 0 1-2 1.999h-8a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h8zM12 6H4v8h8V6z" clip-rule="evenodd"></path></svg>
+            <ol>
+                <li><img src="https://static-cdn.jtvnw.net/jtv_user_pictures/0107210e-a98c-409d-92a6-1caf70bb3953-profile_image-70x70.png" alt=""></li>
+                <li><img src="https://static-cdn.jtvnw.net/jtv_user_pictures/329d43c9-f716-424d-86b3-648839a14f85-profile_image-70x70.png" alt=""></li>
+                <li><img src="https://static-cdn.jtvnw.net/jtv_user_pictures/cb9f7e79-505f-4414-9159-6935c9104426-profile_image-70x70.png" alt=""></li>
+                <li><img src="https://static-cdn.jtvnw.net/jtv_user_pictures/e15d55ed-b3cb-459d-824b-8e298534ba2d-profile_image-70x70.png" alt=""></li>
+                <li><img src="https://static-cdn.jtvnw.net/jtv_user_pictures/1711e16b-4516-4f72-9559-775af8cf9f4f-profile_image-70x70.png" alt=""></li>
+                <li><img src="https://static-cdn.jtvnw.net/jtv_user_pictures/c0cea017-421c-485b-8fa9-c45ea8716987-profile_image-70x70.png" alt=""></li>
+            </ol>
+        </div>
+    </aside>
+
+    <main>
+        <section id="carrusel">
+            <div id="div-carrusel">
+            <iframe class="responsive-iframe" width="400" height="245" src="https://www.youtube.com/embed/VIeqxGaZnFo?si=DIUD4OYuE2pkQUBt" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen autoplay></iframe>
+            </div>
+        </section>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <section class="main-section" id="canales-en-vivo">
+            <p id="text-canales"><span>Canales en vivo </span>que creemos que te gustarán</p>
+            <br>
+            <div>
+                <ol>
+            
+                <li><div class="div-iframe">
+                    <iframe class="responsive-iframe" width="400" height="245" src="https://www.youtube.com/embed/3L6ZEOjvG0k?si=hLj4PLm5OqIRfJEP" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </div>
+                    <section class="info-videos">
+                        <img src="https://static-cdn.jtvnw.net/jtv_user_pictures/0107210e-a98c-409d-92a6-1caf70bb3953-profile_image-70x70.png" alt="">
+                        <p class="titulo-videos">Porque Project Zomboid es increíble</p>
+                        <p class="text-videos">Ronin45</p>
+                        <p class="text-videos">Project Zomboid</p>
+                    </section>
+                </li>
+            
+                <li><div class="div-iframe">
+                    <iframe class="responsive-iframe" width="400" height="245" src="https://www.youtube.com/embed/V4ksjc99R3Y?si=jDLxrwToNuwAtS-p" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </div>
+                    <section class="info-videos">
+                        <img src="https://static-cdn.jtvnw.net/jtv_user_pictures/329d43c9-f716-424d-86b3-648839a14f85-profile_image-70x70.png" alt="">
+                        <p class="titulo-videos">Lil Majin King en Ranked Tekken 8</p>
+                        <p class="text-videos">Lil Majin</p>
+                        <p class="text-videos">Tekken 8</p>
+                    </section>
+            </ol>
+        </div>
+        </section>
+        <br>
+        <section class="main-section" id="fear-hunger">
+            <p id="text-categoria1">Canales recomendados de <span>Fear & Hunger</span></p>
+            <br>
+            <div>
+                <ol>
+                <li><div class="div-iframe">
+                    <iframe class="responsive-iframe" width="400" height="245" src="https://www.youtube.com/embed/h-R3HabW0dE?si=_Dz2zZmbfFWRALEH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </div>
+                    <section class="info-videos">
+                        <img src="https://yt3.ggpht.com/Hiv60uIBtN_E21fsj3OHRVvCNR-PGROq4a2wRZviX1zEw_O5Yg4lXbPig6HLiri95boJ5aH15g=s48-c-k-c0x00ffffff-no-rj" alt="">
+                        <p class="titulo-videos">Fear and Hunger es cruel</p>
+                        <p class="text-videos">BaityBait</p>
+                        <p class="text-videos">Fear & Hunger 2</p>
+                    </section>
+                </li>
+            
+                <li><div class="div-iframe">
+                    <iframe class="responsive-iframe" width="400" height="245" src="https://www.youtube.com/embed/zNxR08GyKWg?si=0qxzPlDCnVZg_aS1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </div>
+                    <section class="info-videos">
+                        <img src="https://yt3.ggpht.com/SbuHmsbPEBsDgp8HzV3XXjt0PeqLXcmK26RtDcyBYWsC_PNdbNAIM3EdIKJ3UdSXQbqkb8YLZIk=s48-c-k-c0x00ffffff-no-rj" alt="">
+                        <p class="titulo-videos">Qué sucede en Fear & Hunger 2?</p>
+                        <p class="text-videos">Worm Girl</p>
+                        <p class="text-videos">Fear & Hunger 2</p>
+                    </section>
+            </ol>
+        </section>
+        <br>
+        <section id="section-categorias">
+            <p id="text-categorias"><span>Categorías </span>que podrían gustarte</p>
+
+            <ol>
+                <li> <img src="https://static-cdn.jtvnw.net/ttv-boxart/509658-188x250.jpg" alt="">
+                    <p class="text-categorias">Solo chateando</p>
+                    <p>300k espectadores</p></li>
+                <li> <img src="https://static-cdn.jtvnw.net/ttv-boxart/2018903128_IGDB-144x192.jpg" alt="">
+                    <p class="text-categorias">Fear & Hunger 2</p>
+                    <p>2.3k espectadores</p></li>
+                <li> <img src="https://static-cdn.jtvnw.net/ttv-boxart/31339_IGDB-144x192.jpg" alt="">
+                    <p class="text-categorias">Project Zomboid</p>
+                    <p>5.5k espectadores</p></li>
+            </ol>
+        </section>
+
+    </main>
+
+    <footer>
+        <div>
+            <img alt="CoolCat" class="tw-image upsell-bottom-banner__coolcat" src="https://assets.twitch.tv/assets/coolcat-edacb6fbd813ce2f0272.png">
+            <p>¡Únete a la comunidad de Twitch!</p>
+        </div>
+        <input type="button" value="Registrarse">
+    </footer>
+</body>
+</html>
